@@ -9,9 +9,10 @@
         android:id="@+id/top_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:gravity="center_horizontal"
         android:padding="130dp"
         android:text="@string/textview_login"
+        android:textAlignment="center"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,57 +56,57 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
 
-        android:src="@drawable/ic_logo_google"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_logo_google"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
     <ImageView
         android:id="@+id/naverImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_logo_naver"
         android:layout_marginLeft="20dp"
-        app:layout_constraintLeft_toRightOf="@+id/googleImage"
+        android:src="@drawable/ic_logo_naver"
         app:layout_constraintBottom_toBottomOf="@+id/googleImage"
+        app:layout_constraintLeft_toRightOf="@+id/googleImage"
         app:layout_constraintTop_toTopOf="@+id/googleImage" />
 
     <ImageView
-        android:id="@+id/kakaoButton"
+        android:id="@+id/kakaoImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="50dp"
         android:src="@drawable/ic_logo_kakao"
-        app:layout_constraintStart_toEndOf="@+id/naverImage"
         app:layout_constraintBottom_toBottomOf="@+id/naverImage"
+        app:layout_constraintStart_toEndOf="@+id/naverImage"
         app:layout_constraintTop_toTopOf="@+id/naverImage"
 
-         />
+        />
 
 
     <TextView
         android:id="@+id/signUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/naverImage" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@+id/signUp"
-        app:layout_constraintStart_toEndOf="@+id/signUp"
-        app:layout_constraintBottom_toBottomOf="@+id/signUp"
         android:layout_marginLeft="20dp"
-
         android:text="@string/find_pw"
+        app:layout_constraintBottom_toBottomOf="@+id/signUp"
+        app:layout_constraintStart_toEndOf="@+id/signUp"
+
+        app:layout_constraintTop_toTopOf="@+id/signUp"
 
         />
 
