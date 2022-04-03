@@ -12,7 +12,7 @@
 
         android:padding="130dp"
         android:text="@string/textview_login"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
