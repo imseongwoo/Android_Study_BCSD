@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test_bcsd</string>
+    <string name="id">ID</string>
+    <string name="password">PW</string>
+    <string name="button_login">Login</string>
+    <string name="textview_login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="find_pw">Find PW</string>
+</resources>

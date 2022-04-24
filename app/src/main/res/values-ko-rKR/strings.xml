@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test_bcsd</string>
+    <string name="id">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="button_login">로그인</string>
+    <string name="textview_login">로그인</string>
+    <string name="sign_up">회원가입</string>
+    <string name="find_pw">비밀번호 찾기</string>
+</resources>
